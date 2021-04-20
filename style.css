@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-2xl {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* NAVBAR STYLES */
+#navbar ul {
+  height: 88%;
+}
+
+#navbar ul li {
+  padding: 0.5rem 0;
+  border-top: 1px solid #111;
+  padding-left: 1rem;
+}
+
+#navbar ul li:last-child {
+  border-bottom: 1px solid #111;
+}
+
+#navbar ul li a:hover {
+  color: #444;
+}
+
+/* MAIN SECTION STYLE */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+  #navbar {
+    width: 100%;
+    position: static;
+  }
+
+  #main-doc {
+    width: 100%;
+    position: static;
+  }
+}
